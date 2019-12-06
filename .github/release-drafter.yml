@@ -1,0 +1,31 @@
+name-template: 'v$NEXT_PATCH_VERSION 🌈'
+tag-template: 'v$NEXT_PATCH_VERSION'
+categories:
+  - title: '🚀 Features'
+    labels:
+      - 'feature'
+      - 'good first issue'
+      - 'feat'
+  - title: '🎨 Enhancements'
+    labels:
+      - 'rfe'
+      - 'enhancement'
+  - title: '🐛 Bug Fixes'
+    labels:
+      - 'fix'
+      - 'bugfix'
+      - 'bug'
+      - 'hotfix'
+  - title: '🧰 Maintenance'
+    label: 'chore'
+  - title: '🏭 Infrastructure'
+    labels:
+      - 'infra'
+      - 'inf'
+      - 'infrastructure'
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+branches: 'master'
+template: |
+  ## Changes
+
+  $CHANGES
